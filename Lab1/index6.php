@@ -12,8 +12,8 @@
 $number = mt_rand(100, 999);
 echo "Випадкове число: $number";
 $first = $number%10;
-$second = $number/10%10;
-$third = $number/100%10;
+$second = ($number/10)%10;
+$third = ($number/100)%10;
 $sum = $first + $second + $third;
 echo "<br>Сума його цифр: $sum";
 echo "<br>Число в зворотному порядку: $first$second$third";

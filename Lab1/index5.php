@@ -19,8 +19,8 @@ switch (strtolower($letter)) {
         echo "Буква $letter є голосною.";
         break;
     case "q": case "w": case "r": case "t": case "p": case "s": case "d": case "f": case "g": case "h": case "j": case "k": case "l": case "z": case "x": case "c": case "v": case "b": case "n": case "m":
-    echo "Буква $letter є приголосною.";
-    break;
+        echo "Буква $letter є приголосною.";
+        break;
     case "y":
         echo "Буква $letter позначає як приголосний, так і голосні звуки";
         break;
